@@ -36,7 +36,7 @@ public class Main {
         //4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
         // и с помощью цикла(-ов) заполнить его диагональные элементы единицами;
 
-        System.out.println("\r\n********");
+        System.out.println("\r\n***********");
         int[][] array4 = new int[7][7];
         for (int i = 0; i < array4.length; i++) {
             for (int j = 0, j2 = array4[i].length; j < array4[i].length; j++, j2--) {
